@@ -19,6 +19,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#C21A6B">
+<link rel="preload" as="image" href="/assets/img/photos/commercial-plumbing-hero.webp" fetchpriority="high">
 <link rel="preload" as="style" href="/main.css">
 <link rel="stylesheet" href="/main.css">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -150,31 +151,31 @@
     <ul class="navlinks">
       <li><a href="/">Home</a></li>
       <li>
-        <a href="/services">Services <span class="caret">▾</span></a>
+        <a href="/services/">Services <span class="caret">▾</span></a>
         <ul class="dropmenu">
-          <li><a href="/water-heater-repair">Water Heater Repair</a></li>
-          <li><a href="/drain-cleaning-unclogging">Drain Cleaning &amp; Unclogging</a></li>
-          <li><a href="/sewer-line-repair">Sewer Line Repair</a></li>
+          <li><a href="/water-heater-repair/">Water Heater Repair</a></li>
+          <li><a href="/drain-cleaning-unclogging/">Drain Cleaning &amp; Unclogging</a></li>
+          <li><a href="/sewer-line-repair/">Sewer Line Repair</a></li>
           <li class="divider"></li>
-          <li><a href="/services">View All Services →</a></li>
+          <li><a href="/services/">View All Services →</a></li>
         </ul>
       </li>
       <li>
-        <a href="/service-areas">Areas <span class="caret">▾</span></a>
+        <a href="/service-areas/">Areas <span class="caret">▾</span></a>
         <ul class="dropmenu">
-          <li><a href="/long-beach">Long Beach</a></li>
-          <li><a href="/torrance">Torrance</a></li>
-          <li><a href="/compton">Compton</a></li>
-          <li><a href="/wilmington">Wilmington</a></li>
-          <li><a href="/lomita">Lomita</a></li>
-          <li><a href="/gardena">Gardena</a></li>
-          <li><a href="/harbor-city">Harbor City</a></li>
+          <li><a href="/long-beach/">Long Beach</a></li>
+          <li><a href="/torrance/">Torrance</a></li>
+          <li><a href="/compton/">Compton</a></li>
+          <li><a href="/wilmington/">Wilmington</a></li>
+          <li><a href="/lomita/">Lomita</a></li>
+          <li><a href="/gardena/">Gardena</a></li>
+          <li><a href="/harbor-city/">Harbor City</a></li>
           <li class="divider"></li>
-          <li><a href="/service-areas">View All Areas →</a></li>
+          <li><a href="/service-areas/">View All Areas →</a></li>
         </ul>
       </li>
-      <li><a href="/blog">Blog</a></li>
-      <li><a href="/contact">Contact</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/contact/">Contact</a></li>
     </ul>
     <a href="tel:+13104247510" class="btn berry navcall">📞 (310) 424-7510</a>
     <button class="hamburger" aria-label="Open menu" onclick="document.getElementById('mmenu').classList.add('open');document.documentElement.style.overflow='hidden'">☰</button>
@@ -191,27 +192,27 @@
     <li>
       <p class="msectitle">Top Services</p>
       <ul class="msub">
-        <li><a href="/water-heater-repair">Water Heater Repair</a></li>
-        <li><a href="/drain-cleaning-unclogging">Drain Cleaning &amp; Unclogging</a></li>
-        <li><a href="/sewer-line-repair">Sewer Line Repair</a></li>
-        <li><a href="/services">View All Services →</a></li>
+        <li><a href="/water-heater-repair/">Water Heater Repair</a></li>
+        <li><a href="/drain-cleaning-unclogging/">Drain Cleaning &amp; Unclogging</a></li>
+        <li><a href="/sewer-line-repair/">Sewer Line Repair</a></li>
+        <li><a href="/services/">View All Services →</a></li>
       </ul>
     </li>
     <li>
       <p class="msectitle">Service Areas</p>
       <ul class="msub">
-        <li><a href="/long-beach">Long Beach</a></li>
-        <li><a href="/torrance">Torrance</a></li>
-        <li><a href="/compton">Compton</a></li>
-        <li><a href="/wilmington">Wilmington</a></li>
-        <li><a href="/lomita">Lomita</a></li>
-          <li><a href="/gardena">Gardena</a></li>
-          <li><a href="/harbor-city">Harbor City</a></li>
-        <li><a href="/service-areas">View All Areas →</a></li>
+        <li><a href="/long-beach/">Long Beach</a></li>
+        <li><a href="/torrance/">Torrance</a></li>
+        <li><a href="/compton/">Compton</a></li>
+        <li><a href="/wilmington/">Wilmington</a></li>
+        <li><a href="/lomita/">Lomita</a></li>
+          <li><a href="/gardena/">Gardena</a></li>
+          <li><a href="/harbor-city/">Harbor City</a></li>
+        <li><a href="/service-areas/">View All Areas →</a></li>
       </ul>
     </li>
-    <li><a href="/blog">Blog</a></li>
-    <li><a href="/contact">Contact</a></li>
+    <li><a href="/blog/">Blog</a></li>
+    <li><a href="/contact/">Contact</a></li>
   </ul>
   <a href="tel:+13104247510" class="btn berry block mcallbtn">📞 Call (310) 424-7510</a>
 </div>
@@ -222,10 +223,11 @@
 
 <main id="main">
 
-  <section class="pagehead">
+  <section class="pagehead has-hero">
+    <img class="hero-bg" src="/assets/img/photos/commercial-plumbing-hero.webp" alt="Underslab plumbing rough-in with drain stub-ups at a commercial building under construction" width="1600" height="1000" fetchpriority="high" decoding="async">
     <div class="wrap">
       <div>
-        <p class="crumb"><a href="/">Home</a> / <a href="/services">Services</a> / Commercial Plumbing</p>
+        <p class="crumb"><a href="/">Home</a> / <a href="/services/">Services</a> / Commercial Plumbing</p>
         <h1>Commercial Plumbing in Carson, CA</h1>
         <p>Plumbing downtime costs a business money every hour it continues. We schedule routine commercial work around your operating hours and treat true failures as priority calls.</p>
         <div class="chips">
@@ -250,19 +252,13 @@
     </div>
   </div>
 
-  <section class="sec">
-    <div class="wrap">
-      <div class="page-photo">
-        <img src="/assets/img/photos/commercial-plumbing-hero.webp" width="1600" height="1000" alt="Underslab plumbing rough-in with drain stub-ups at a commercial building under construction" loading="lazy">
-      </div>
-    </div>
-  </section>
-
   
 
-  <section class="sec soft" id="signs">
-    <div class="wrap">
-      <span class="kick">Signs You Need This Service</span>
+  <section class="sec">
+    <div class="wrap twocol">
+      <article>
+<div class="blk soft" id="signs">
+<span class="kick">Signs You Need This Service</span>
       <h2>Common Commercial Plumbing Calls</h2>
       <div class="cards">
         
@@ -297,28 +293,24 @@
         </div>
         
       </div>
-    </div>
-  </section>
+</div>
 
-  <section class="sec localbody" id="about">
-    <div class="wrap">
-      <span class="kick">In Carson, CA</span>
+<div class="blk localbody" id="about">
+<span class="kick">In Carson, CA</span>
       <h2>Commercial Plumbing Near Carson's Port and Industrial Corridor</h2>
       <p>Carson's location near the Port of Los Angeles and Port of Long Beach means a significant share of the city's commercial footprint is warehouses, distribution centers, and light industrial space, alongside retail and office properties along the main commercial corridors. Each type of property has different plumbing demands: a warehouse might need occasional service on a handful of restroom and break-room fixtures, while a restaurant needs regular grease trap maintenance and code-compliant backflow prevention.</p><p>We schedule non-urgent commercial work, fixture replacement, routine maintenance, backflow testing, around your business hours whenever the job allows it, since shutting down a restroom or a section of a warehouse during peak operating time has a real cost. True emergencies, a burst supply line or a sewage backup affecting operations, get priority dispatch regardless of time of day.</p><p>Commercial properties are also subject to different code requirements than residential, particularly around backflow prevention and grease interceptors for food service. We're familiar with Carson's specific commercial plumbing code requirements and won't leave you with a fix that fails inspection.</p><p>We also help Carson businesses plan for plumbing needs during buildouts and tenant improvements, since a new restaurant, retail space, or warehouse office often needs additional fixtures, a relocated water line, or upgraded drain capacity before it can pass final inspection. Coordinating that work with your contractor or property manager during the buildout phase avoids the more expensive scenario of retrofitting plumbing after walls and flooring are already finished.</p>
       <p>Commercial plumbing in Carson ranges from retail suites in the South Bay Pavilion area to warehouses off the Harbor Freeway and businesses near Dignity Health Sports Park. These properties run on tight schedules, so we plan maintenance around operating hours and keep annual backflow testing on the calendar.</p>
-    </div>
-  </section>
+</div>
 
-  <section class="sec soft" id="process">
-    <div class="wrap">
-      <span class="kick">Our Process</span>
+<div class="blk soft" id="process">
+<span class="kick">Our Process</span>
       <h2>How We Handle Commercial Calls</h2>
       <div class="steps">
         
         <div class="step">
           <div class="n">1</div>
           <h3>Assess Urgency</h3>
-          <p>A true emergency gets priority dispatch; routine work gets scheduled around your hours.</p>
+          <p>A true emergency gets priority dispatch. Routine work gets scheduled around your hours.</p>
         </div>
         
         <div class="step">
@@ -340,12 +332,10 @@
         </div>
         
       </div>
-    </div>
-  </section>
+</div>
 
-  <section class="sec" id="why">
-    <div class="wrap">
-      <span class="kick">Why Carson Pro Plumbing</span>
+<div class="blk" id="why">
+<span class="kick">Why Carson Pro Plumbing</span>
       <h2>Why Carson Businesses Call Us</h2>
       <div class="why">
         
@@ -374,20 +364,23 @@
         </div>
         
       </div>
-    </div>
-  </section>
+</div>
 
-  <section class="sec soft localbody" id="related">
-    <div class="wrap">
-      <span class="kick">Related Reading</span>
+<div class="blk soft localbody" id="related">
+<span class="kick">Related Reading</span>
       <h2>You Might Also Need</h2>
-      <p>A commercial restroom with a slow drain is covered under standard <a href="/drain-cleaning-unclogging">drain cleaning</a>. A warehouse with an aging water heater serving break rooms may need <a href="/water-heater-installation-replacement">water heater installation and replacement</a>, and any commercial property affected by an actual flood or leak event should see <a href="/water-damage-restoration">water damage restoration</a>. This is especially common for the port-adjacent warehouses we service in <a href="/wilmington">Wilmington</a>.</p>
-    </div>
-  </section>
+      <p>A commercial restroom with a slow drain is covered under standard <a href="/drain-cleaning-unclogging/">drain cleaning</a>. A warehouse with an aging water heater serving break rooms may need <a href="/water-heater-installation-replacement/">water heater installation and replacement</a>, and any commercial property affected by an actual flood or leak event should see <a href="/water-damage-restoration/">water damage restoration</a>. This is especially common for the port-adjacent warehouses we service in <a href="/wilmington/">Wilmington</a>.</p>
+</div>
 
-  <section class="sec" id="pricing">
-    <div class="wrap">
-      <span class="kick">Pricing Transparency</span>
+<div class="blk localbody" id="commercial-leaks">
+<span class="kick">Business Calls</span>
+<h2>Commercial Leak Detection and Floor Drain Calls</h2>
+<p>Business owners call about leaks in shopping plazas, water surfacing in an apartment parking lot and floor drains that overflow during business hours. A water utility notice about a leak on a commercial account is another common trigger.</p>
+<p>We start by finding whether the leak is inside the building, in a buried line or on the utility side of the meter. Then we explain the repair and give a price first, and we schedule around your hours where we can. A floor drain that is overflowing deserves a call right away, because standing water becomes a safety problem for staff and customers.</p>
+</div>
+
+<div class="blk" id="pricing">
+<span class="kick">Pricing Transparency</span>
       <h2>What Affects the Price of Commercial Plumbing</h2>
       <p class="sub">We can't give an accurate number without seeing the job, but these are the real factors that move the price up or down.</p>
       <div class="cards">
@@ -416,15 +409,11 @@
       <div class="insurance-note">
         <strong>On insurance:</strong> Commercial policies vary widely by carrier and by what's actually named in your specific plan, so this is worth a direct conversation with your broker rather than an assumption either way.
       </div>
-    </div>
-  </section>
+</div>
 
-  
-
-  <section class="sec" id="faq">
-    <div class="wrap">
-      <span class="kick">Common Questions</span>
-      <h2></h2>
+<div class="blk" id="faq">
+<span class="kick">Common Questions</span>
+      <h2>Commercial Plumbing Questions</h2>
       <div class="faq">
         
         <div class="faqitem">
@@ -453,8 +442,25 @@
         </div>
         
       </div>
+</div>
+      </article>
+      <aside class="sidecard" aria-label="Call Carson Pro Plumbing">
+        <span class="kick">24/7 Emergency Line Open</span>
+        <h3>Business plumbing issue?</h3>
+        <p>Commercial calls get priority scheduling. Tell us about the property and the problem.</p>
+        <a href="tel:+13104247510" class="btn berry block">📞 Call (310) 424-7510</a>
+        <ul class="sidelist">
+          <li>Upfront pricing before work starts</li>
+          <li>Licensed &amp; insured</li>
+          <li>Same-day appointments available</li>
+          <li>Serving Carson and the South Bay</li>
+        </ul>
+        <a class="sidelink" href="/leak-detection/">Leak detection →</a>
+      </aside>
     </div>
   </section>
+
+  
 
   <section class="sec soft" id="coverage-map">
     <div class="wrap">
@@ -466,7 +472,7 @@
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           title="Carson Pro Plumbing service area map covering Carson and the South Bay"
-          aria-label="Map of Carson Pro Plumbing's service area covering Carson, Long Beach, Torrance, Compton, Wilmington, and Lomita, CA">
+          aria-label="Map of Carson Pro Plumbing's service area covering Carson, Long Beach, Torrance, Compton, Wilmington, Lomita, Gardena, and Harbor City, CA">
         </iframe>
       </div>
     </div>
@@ -494,28 +500,28 @@
       </div>
       <div>
         <h4>Services</h4>
-        <a href="/water-heater-repair">Water Heater Repair</a>
-        <a href="/drain-cleaning-unclogging">Drain Cleaning</a>
-        <a href="/sewer-line-repair">Sewer Line Repair</a>
-        <a href="/leak-detection">Leak Detection</a>
-        <a href="/services">All Services</a>
+        <a href="/water-heater-repair/">Water Heater Repair</a>
+        <a href="/drain-cleaning-unclogging/">Drain Cleaning</a>
+        <a href="/sewer-line-repair/">Sewer Line Repair</a>
+        <a href="/leak-detection/">Leak Detection</a>
+        <a href="/services/">All Services</a>
       </div>
       <div>
         <h4>Service Areas</h4>
-        <a href="/long-beach">Long Beach</a>
-        <a href="/torrance">Torrance</a>
-        <a href="/compton">Compton</a>
-        <a href="/wilmington">Wilmington</a>
-        <a href="/gardena">Gardena</a>
-        <a href="/harbor-city">Harbor City</a>
-        <a href="/service-areas">All Areas</a>
+        <a href="/long-beach/">Long Beach</a>
+        <a href="/torrance/">Torrance</a>
+        <a href="/compton/">Compton</a>
+        <a href="/wilmington/">Wilmington</a>
+        <a href="/gardena/">Gardena</a>
+        <a href="/harbor-city/">Harbor City</a>
+        <a href="/service-areas/">All Areas</a>
       </div>
       <div>
         <h4>Company</h4>
-        <a href="/blog">Blog</a>
-        <a href="/contact">Contact Us</a>
-        <a href="/privacy">Privacy Policy</a>
-        <a href="/terms">Terms of Service</a>
+        <a href="/blog/">Blog</a>
+        <a href="/contact/">Contact Us</a>
+        <a href="/privacy/">Privacy Policy</a>
+        <a href="/terms/">Terms of Service</a>
       </div>
     </div>
     <div class="fbottom">

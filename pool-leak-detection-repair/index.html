@@ -19,6 +19,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#C21A6B">
+<link rel="preload" as="image" href="/assets/img/photos/pool-leak-detection-repair-hero.webp" fetchpriority="high">
 <link rel="preload" as="style" href="/main.css">
 <link rel="stylesheet" href="/main.css">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -142,31 +143,31 @@
     <ul class="navlinks">
       <li><a href="/">Home</a></li>
       <li>
-        <a href="/services">Services <span class="caret">▾</span></a>
+        <a href="/services/">Services <span class="caret">▾</span></a>
         <ul class="dropmenu">
-          <li><a href="/water-heater-repair">Water Heater Repair</a></li>
-          <li><a href="/drain-cleaning-unclogging">Drain Cleaning &amp; Unclogging</a></li>
-          <li><a href="/sewer-line-repair">Sewer Line Repair</a></li>
+          <li><a href="/water-heater-repair/">Water Heater Repair</a></li>
+          <li><a href="/drain-cleaning-unclogging/">Drain Cleaning &amp; Unclogging</a></li>
+          <li><a href="/sewer-line-repair/">Sewer Line Repair</a></li>
           <li class="divider"></li>
-          <li><a href="/services">View All Services →</a></li>
+          <li><a href="/services/">View All Services →</a></li>
         </ul>
       </li>
       <li>
-        <a href="/service-areas">Areas <span class="caret">▾</span></a>
+        <a href="/service-areas/">Areas <span class="caret">▾</span></a>
         <ul class="dropmenu">
-          <li><a href="/long-beach">Long Beach</a></li>
-          <li><a href="/torrance">Torrance</a></li>
-          <li><a href="/compton">Compton</a></li>
-          <li><a href="/wilmington">Wilmington</a></li>
-          <li><a href="/lomita">Lomita</a></li>
-          <li><a href="/gardena">Gardena</a></li>
-          <li><a href="/harbor-city">Harbor City</a></li>
+          <li><a href="/long-beach/">Long Beach</a></li>
+          <li><a href="/torrance/">Torrance</a></li>
+          <li><a href="/compton/">Compton</a></li>
+          <li><a href="/wilmington/">Wilmington</a></li>
+          <li><a href="/lomita/">Lomita</a></li>
+          <li><a href="/gardena/">Gardena</a></li>
+          <li><a href="/harbor-city/">Harbor City</a></li>
           <li class="divider"></li>
-          <li><a href="/service-areas">View All Areas →</a></li>
+          <li><a href="/service-areas/">View All Areas →</a></li>
         </ul>
       </li>
-      <li><a href="/blog">Blog</a></li>
-      <li><a href="/contact">Contact</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/contact/">Contact</a></li>
     </ul>
     <a href="tel:+13104247510" class="btn berry navcall">📞 (310) 424-7510</a>
     <button class="hamburger" aria-label="Open menu" onclick="document.getElementById('mmenu').classList.add('open');document.documentElement.style.overflow='hidden'">☰</button>
@@ -183,27 +184,27 @@
     <li>
       <p class="msectitle">Top Services</p>
       <ul class="msub">
-        <li><a href="/water-heater-repair">Water Heater Repair</a></li>
-        <li><a href="/drain-cleaning-unclogging">Drain Cleaning &amp; Unclogging</a></li>
-        <li><a href="/sewer-line-repair">Sewer Line Repair</a></li>
-        <li><a href="/services">View All Services →</a></li>
+        <li><a href="/water-heater-repair/">Water Heater Repair</a></li>
+        <li><a href="/drain-cleaning-unclogging/">Drain Cleaning &amp; Unclogging</a></li>
+        <li><a href="/sewer-line-repair/">Sewer Line Repair</a></li>
+        <li><a href="/services/">View All Services →</a></li>
       </ul>
     </li>
     <li>
       <p class="msectitle">Service Areas</p>
       <ul class="msub">
-        <li><a href="/long-beach">Long Beach</a></li>
-        <li><a href="/torrance">Torrance</a></li>
-        <li><a href="/compton">Compton</a></li>
-        <li><a href="/wilmington">Wilmington</a></li>
-        <li><a href="/lomita">Lomita</a></li>
-          <li><a href="/gardena">Gardena</a></li>
-          <li><a href="/harbor-city">Harbor City</a></li>
-        <li><a href="/service-areas">View All Areas →</a></li>
+        <li><a href="/long-beach/">Long Beach</a></li>
+        <li><a href="/torrance/">Torrance</a></li>
+        <li><a href="/compton/">Compton</a></li>
+        <li><a href="/wilmington/">Wilmington</a></li>
+        <li><a href="/lomita/">Lomita</a></li>
+          <li><a href="/gardena/">Gardena</a></li>
+          <li><a href="/harbor-city/">Harbor City</a></li>
+        <li><a href="/service-areas/">View All Areas →</a></li>
       </ul>
     </li>
-    <li><a href="/blog">Blog</a></li>
-    <li><a href="/contact">Contact</a></li>
+    <li><a href="/blog/">Blog</a></li>
+    <li><a href="/contact/">Contact</a></li>
   </ul>
   <a href="tel:+13104247510" class="btn berry block mcallbtn">📞 Call (310) 424-7510</a>
 </div>
@@ -214,10 +215,11 @@
 
 <main id="main">
 
-  <section class="pagehead">
+  <section class="pagehead has-hero">
+    <img class="hero-bg" src="/assets/img/photos/pool-leak-detection-repair-hero.webp" alt="Pool pump and sand filter on an equipment pad beside an in-ground pool" width="1600" height="1000" fetchpriority="high" decoding="async">
     <div class="wrap">
       <div>
-        <p class="crumb"><a href="/">Home</a> / <a href="/services">Services</a> / Pool Leak Detection</p>
+        <p class="crumb"><a href="/">Home</a> / <a href="/services/">Services</a> / Pool Leak Detection</p>
         <h1>Pool Leak Detection & Repair in Carson, CA</h1>
         <p>Refilling the pool more than once a week usually means a real leak, not just summer evaporation. We locate it precisely before any repair work begins.</p>
         <div class="chips">
@@ -242,27 +244,19 @@
     </div>
   </div>
 
+  
   <section class="sec">
-    <div class="wrap">
-      <div class="page-photo">
-        <img src="/assets/img/photos/pool-leak-detection-repair-hero.webp" width="1600" height="1000" alt="Pool pump and sand filter on an equipment pad beside an in-ground pool" loading="lazy">
-      </div>
-    </div>
-  </section>
-
-  
-  <section class="sec localbody">
-    <div class="wrap">
-      <span class="kick">Not Sure What's Wrong?</span>
+    <div class="wrap twocol">
+      <article>
+<div class="blk localbody">
+<span class="kick">Not Sure What's Wrong?</span>
       <h2>Topping Off the Pool More Than Usual?</h2>
-      <p>Southern California's warm climate means real evaporation, typically a quarter to half an inch of water loss per day in summer, but water loss beyond that points to an actual leak somewhere in the pool's shell, plumbing, or equipment. The bucket test is a simple first check: place a bucket filled to the pool's waterline on a step, mark both water levels, and compare the drop after 24 hours. If the pool loses noticeably more than the bucket, there's a real leak to find.</p><p>Pool leaks come from a handful of common points: cracks in the shell or tile line, worn seals around skimmers and return outlets, a cracked pool light housing, or a break in the underground plumbing running to the equipment pad. Finding the exact source before repairing anything is what separates a permanent fix from a repair that doesn't hold.</p>
-    </div>
-  </section>
-  
+      <p>Southern California's warm climate means real evaporation, typically a quarter to half an inch of water loss per day in summer, but water loss beyond that points to an actual leak somewhere in the pool's shell, plumbing, or equipment.</p>
+<p>The bucket test is a simple first check: place a bucket filled to the pool's waterline on a step, mark both water levels, and compare the drop after 24 hours. If the pool loses noticeably more than the bucket, there's a real leak to find.</p><p>Pool leaks come from a handful of common points: cracks in the shell or tile line, worn seals around skimmers and return outlets, a cracked pool light housing, or a break in the underground plumbing running to the equipment pad. Finding the exact source before repairing anything is what separates a permanent fix from a repair that doesn't hold.</p>
+</div>
 
-  <section class="sec soft" id="signs">
-    <div class="wrap">
-      <span class="kick">Signs You Need This Service</span>
+<div class="blk soft" id="signs">
+<span class="kick">Signs You Need This Service</span>
       <h2>Signs Your Pool Has a Leak</h2>
       <div class="cards">
         
@@ -291,21 +285,17 @@
         </div>
         
       </div>
-    </div>
-  </section>
+</div>
 
-  <section class="sec localbody" id="about">
-    <div class="wrap">
-      <span class="kick">In Carson, CA</span>
+<div class="blk localbody" id="about">
+<span class="kick">In Carson, CA</span>
       <h2>Pool Leak Detection Around Carson</h2>
       <p>Carson has a meaningful number of single-family homes with in-ground pools, particularly in the tract-home neighborhoods built from the 1960s onward, and pool plumbing from that era is now decades past its original installation. Underground pool lines, along with skimmer and return fittings, are common failure points as the surrounding soil shifts slightly over the years and original seals age out.</p><p>We use acoustic listening equipment and pressure testing on the pool's plumbing lines to pinpoint a leak's location before recommending any repair, the same non-invasive approach used for slab leak detection in a home's main plumbing. That avoids breaking into deck or coping on a guess, which is a common and costly mistake when a leak's location isn't confirmed first.</p><p>Once located, a plumbing-line leak can often be repaired by accessing the specific point through a small, targeted cut in the deck rather than a wide excavation. Leaks in the shell itself, at the tile line, or around a light housing are typically handled with targeted patching once identified. We'll walk through which category your leak falls into once we've found it, along with a real cost estimate before any repair work starts.</p>
       <p>In-ground pools in Carson's residential tracts, including the streets around Dominguez Park and Stevenson Park, are decades old in many cases. Equipment pad seals and underground lines wear out over time, so a pool that drops more than evaporation explains deserves a bucket test and then a pressure test.</p>
-    </div>
-  </section>
+</div>
 
-  <section class="sec soft" id="process">
-    <div class="wrap">
-      <span class="kick">Our Process</span>
+<div class="blk soft" id="process">
+<span class="kick">Our Process</span>
       <h2>Our Pool Leak Detection Process</h2>
       <div class="steps">
         
@@ -334,12 +324,10 @@
         </div>
         
       </div>
-    </div>
-  </section>
+</div>
 
-  <section class="sec" id="why">
-    <div class="wrap">
-      <span class="kick">Why Carson Pro Plumbing</span>
+<div class="blk" id="why">
+<span class="kick">Why Carson Pro Plumbing</span>
       <h2>Why Choose Us for Pool Leak Detection</h2>
       <div class="why">
         
@@ -368,20 +356,24 @@
         </div>
         
       </div>
-    </div>
-  </section>
+</div>
 
-  <section class="sec soft localbody" id="related">
-    <div class="wrap">
-      <span class="kick">Related Reading</span>
+<div class="blk soft localbody" id="related">
+<span class="kick">Related Reading</span>
       <h2>You Might Also Need</h2>
-      <p>If the leak turns out to be in the underground plumbing line rather than the pool shell itself, the diagnostic approach is similar to standard <a href="/leak-detection">leak detection</a> for a home's main water lines. A pool equipment pad with an aging water heater for a heated pool may also need <a href="/water-heater-repair">water heater repair</a> service, and any pool leak that has saturated nearby soil enough to affect a home's foundation should be evaluated alongside <a href="/slab-leak-detection-repair">slab leak detection</a>. We see the same aging pool plumbing throughout <a href="/torrance">Torrance</a>'s tract-home neighborhoods as well.</p>
-    </div>
-  </section>
+      <p>If the leak turns out to be in the underground plumbing line rather than the pool shell itself, the diagnostic approach is similar to standard <a href="/leak-detection/">leak detection</a> for a home's main water lines.</p>
+<p>A pool equipment pad with an aging water heater for a heated pool may also need <a href="/water-heater-repair/">water heater repair</a> service, and any pool leak that has saturated nearby soil enough to affect a home's foundation should be evaluated alongside <a href="/slab-leak-detection-repair/">slab leak detection</a>. We see the same aging pool plumbing throughout <a href="/torrance/">Torrance</a>'s tract-home neighborhoods as well.</p>
+</div>
 
-  <section class="sec" id="pricing">
-    <div class="wrap">
-      <span class="kick">Pricing Transparency</span>
+<div class="blk localbody" id="spas">
+<span class="kick">Spas and Hot Tubs</span>
+<h2>Spa and Hot Tub Leaks</h2>
+<p>Hot tubs and spas leak at jets, pump seals and the plumbing connections around the equipment. A wet patch near the tub, a spa that needs topping off often or a bill that rises after you installed one are the usual clues.</p>
+<p>We test the spa plumbing the same way we test a pool, one section at a time, and explain the repair and price before we open anything.</p>
+</div>
+
+<div class="blk" id="pricing">
+<span class="kick">Pricing Transparency</span>
       <h2>What Affects the Price of Pool Leak Detection & Repair</h2>
       <p class="sub">We can't give an accurate number without seeing the job, but these are the real factors that move the price up or down.</p>
       <div class="cards">
@@ -405,15 +397,11 @@
       <div class="insurance-note">
         <strong>On insurance:</strong> Pool equipment and plumbing wear is typically treated as maintenance rather than a covered loss, and most homeowner policies exclude pool systems from standard coverage entirely. Check your specific policy for any pool endorsement.
       </div>
-    </div>
-  </section>
+</div>
 
-  
-
-  <section class="sec" id="faq">
-    <div class="wrap">
-      <span class="kick">Common Questions</span>
-      <h2></h2>
+<div class="blk" id="faq">
+<span class="kick">Common Questions</span>
+      <h2>Pool Leak Detection Questions</h2>
       <div class="faq">
         
         <div class="faqitem">
@@ -437,8 +425,26 @@
         </div>
         
       </div>
+</div>
+      </article>
+      <aside class="sidecard" aria-label="Call Carson Pro Plumbing">
+        <span class="kick">24/7 Emergency Line Open</span>
+        <h3>Pool losing water?</h3>
+        <p>We locate pool and spa leaks and explain the repair first.</p>
+        <a href="tel:+13104247510" class="btn berry block">📞 Call (310) 424-7510</a>
+        <ul class="sidelist">
+          <li>Upfront pricing before work starts</li>
+          <li>Licensed &amp; insured</li>
+          <li>Same-day appointments available</li>
+          <li>Serving Carson and the South Bay</li>
+        </ul>
+        <a class="sidelink" href="/leak-detection/">Leak detection →</a>
+      </aside>
     </div>
   </section>
+  
+
+  
 
   <section class="sec soft" id="coverage-map">
     <div class="wrap">
@@ -450,7 +456,7 @@
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           title="Carson Pro Plumbing service area map covering Carson and the South Bay"
-          aria-label="Map of Carson Pro Plumbing's service area covering Carson, Long Beach, Torrance, Compton, Wilmington, and Lomita, CA">
+          aria-label="Map of Carson Pro Plumbing's service area covering Carson, Long Beach, Torrance, Compton, Wilmington, Lomita, Gardena, and Harbor City, CA">
         </iframe>
       </div>
     </div>
@@ -478,28 +484,28 @@
       </div>
       <div>
         <h4>Services</h4>
-        <a href="/water-heater-repair">Water Heater Repair</a>
-        <a href="/drain-cleaning-unclogging">Drain Cleaning</a>
-        <a href="/sewer-line-repair">Sewer Line Repair</a>
-        <a href="/leak-detection">Leak Detection</a>
-        <a href="/services">All Services</a>
+        <a href="/water-heater-repair/">Water Heater Repair</a>
+        <a href="/drain-cleaning-unclogging/">Drain Cleaning</a>
+        <a href="/sewer-line-repair/">Sewer Line Repair</a>
+        <a href="/leak-detection/">Leak Detection</a>
+        <a href="/services/">All Services</a>
       </div>
       <div>
         <h4>Service Areas</h4>
-        <a href="/long-beach">Long Beach</a>
-        <a href="/torrance">Torrance</a>
-        <a href="/compton">Compton</a>
-        <a href="/wilmington">Wilmington</a>
-        <a href="/gardena">Gardena</a>
-        <a href="/harbor-city">Harbor City</a>
-        <a href="/service-areas">All Areas</a>
+        <a href="/long-beach/">Long Beach</a>
+        <a href="/torrance/">Torrance</a>
+        <a href="/compton/">Compton</a>
+        <a href="/wilmington/">Wilmington</a>
+        <a href="/gardena/">Gardena</a>
+        <a href="/harbor-city/">Harbor City</a>
+        <a href="/service-areas/">All Areas</a>
       </div>
       <div>
         <h4>Company</h4>
-        <a href="/blog">Blog</a>
-        <a href="/contact">Contact Us</a>
-        <a href="/privacy">Privacy Policy</a>
-        <a href="/terms">Terms of Service</a>
+        <a href="/blog/">Blog</a>
+        <a href="/contact/">Contact Us</a>
+        <a href="/privacy/">Privacy Policy</a>
+        <a href="/terms/">Terms of Service</a>
       </div>
     </div>
     <div class="fbottom">

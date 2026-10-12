@@ -19,6 +19,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#C21A6B">
+<link rel="preload" as="image" href="/assets/img/photos/shower-bathtub-installation-hero.webp" fetchpriority="high">
 <link rel="preload" as="style" href="/main.css">
 <link rel="stylesheet" href="/main.css">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -150,31 +151,31 @@
     <ul class="navlinks">
       <li><a href="/">Home</a></li>
       <li>
-        <a href="/services">Services <span class="caret">▾</span></a>
+        <a href="/services/">Services <span class="caret">▾</span></a>
         <ul class="dropmenu">
-          <li><a href="/water-heater-repair">Water Heater Repair</a></li>
-          <li><a href="/drain-cleaning-unclogging">Drain Cleaning &amp; Unclogging</a></li>
-          <li><a href="/sewer-line-repair">Sewer Line Repair</a></li>
+          <li><a href="/water-heater-repair/">Water Heater Repair</a></li>
+          <li><a href="/drain-cleaning-unclogging/">Drain Cleaning &amp; Unclogging</a></li>
+          <li><a href="/sewer-line-repair/">Sewer Line Repair</a></li>
           <li class="divider"></li>
-          <li><a href="/services">View All Services →</a></li>
+          <li><a href="/services/">View All Services →</a></li>
         </ul>
       </li>
       <li>
-        <a href="/service-areas">Areas <span class="caret">▾</span></a>
+        <a href="/service-areas/">Areas <span class="caret">▾</span></a>
         <ul class="dropmenu">
-          <li><a href="/long-beach">Long Beach</a></li>
-          <li><a href="/torrance">Torrance</a></li>
-          <li><a href="/compton">Compton</a></li>
-          <li><a href="/wilmington">Wilmington</a></li>
-          <li><a href="/lomita">Lomita</a></li>
-          <li><a href="/gardena">Gardena</a></li>
-          <li><a href="/harbor-city">Harbor City</a></li>
+          <li><a href="/long-beach/">Long Beach</a></li>
+          <li><a href="/torrance/">Torrance</a></li>
+          <li><a href="/compton/">Compton</a></li>
+          <li><a href="/wilmington/">Wilmington</a></li>
+          <li><a href="/lomita/">Lomita</a></li>
+          <li><a href="/gardena/">Gardena</a></li>
+          <li><a href="/harbor-city/">Harbor City</a></li>
           <li class="divider"></li>
-          <li><a href="/service-areas">View All Areas →</a></li>
+          <li><a href="/service-areas/">View All Areas →</a></li>
         </ul>
       </li>
-      <li><a href="/blog">Blog</a></li>
-      <li><a href="/contact">Contact</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/contact/">Contact</a></li>
     </ul>
     <a href="tel:+13104247510" class="btn berry navcall">📞 (310) 424-7510</a>
     <button class="hamburger" aria-label="Open menu" onclick="document.getElementById('mmenu').classList.add('open');document.documentElement.style.overflow='hidden'">☰</button>
@@ -191,27 +192,27 @@
     <li>
       <p class="msectitle">Top Services</p>
       <ul class="msub">
-        <li><a href="/water-heater-repair">Water Heater Repair</a></li>
-        <li><a href="/drain-cleaning-unclogging">Drain Cleaning &amp; Unclogging</a></li>
-        <li><a href="/sewer-line-repair">Sewer Line Repair</a></li>
-        <li><a href="/services">View All Services →</a></li>
+        <li><a href="/water-heater-repair/">Water Heater Repair</a></li>
+        <li><a href="/drain-cleaning-unclogging/">Drain Cleaning &amp; Unclogging</a></li>
+        <li><a href="/sewer-line-repair/">Sewer Line Repair</a></li>
+        <li><a href="/services/">View All Services →</a></li>
       </ul>
     </li>
     <li>
       <p class="msectitle">Service Areas</p>
       <ul class="msub">
-        <li><a href="/long-beach">Long Beach</a></li>
-        <li><a href="/torrance">Torrance</a></li>
-        <li><a href="/compton">Compton</a></li>
-        <li><a href="/wilmington">Wilmington</a></li>
-        <li><a href="/lomita">Lomita</a></li>
-          <li><a href="/gardena">Gardena</a></li>
-          <li><a href="/harbor-city">Harbor City</a></li>
-        <li><a href="/service-areas">View All Areas →</a></li>
+        <li><a href="/long-beach/">Long Beach</a></li>
+        <li><a href="/torrance/">Torrance</a></li>
+        <li><a href="/compton/">Compton</a></li>
+        <li><a href="/wilmington/">Wilmington</a></li>
+        <li><a href="/lomita/">Lomita</a></li>
+          <li><a href="/gardena/">Gardena</a></li>
+          <li><a href="/harbor-city/">Harbor City</a></li>
+        <li><a href="/service-areas/">View All Areas →</a></li>
       </ul>
     </li>
-    <li><a href="/blog">Blog</a></li>
-    <li><a href="/contact">Contact</a></li>
+    <li><a href="/blog/">Blog</a></li>
+    <li><a href="/contact/">Contact</a></li>
   </ul>
   <a href="tel:+13104247510" class="btn berry block mcallbtn">📞 Call (310) 424-7510</a>
 </div>
@@ -222,10 +223,11 @@
 
 <main id="main">
 
-  <section class="pagehead">
+  <section class="pagehead has-hero">
+    <img class="hero-bg" src="/assets/img/photos/shower-bathtub-installation-hero.webp" alt="Finished walk-in shower with a glass door and large marble-look tile" width="1600" height="1000" fetchpriority="high" decoding="async">
     <div class="wrap">
       <div>
-        <p class="crumb"><a href="/">Home</a> / <a href="/services">Services</a> / Shower & Tub Installation</p>
+        <p class="crumb"><a href="/">Home</a> / <a href="/services/">Services</a> / Shower & Tub Installation</p>
         <h1>Shower & Bathtub Installation in Carson, CA</h1>
         <p>Whether it's a full bathroom remodel or replacing a single failing tub, correct plumbing connections and waterproofing are what keep the new fixture from causing problems years down the road.</p>
         <div class="chips">
@@ -250,19 +252,13 @@
     </div>
   </div>
 
-  <section class="sec">
-    <div class="wrap">
-      <div class="page-photo">
-        <img src="/assets/img/photos/shower-bathtub-installation-hero.webp" width="1600" height="1000" alt="Finished walk-in shower with a glass door and large marble-look tile" loading="lazy">
-      </div>
-    </div>
-  </section>
-
   
 
-  <section class="sec soft" id="signs">
-    <div class="wrap">
-      <span class="kick">Signs You Need This Service</span>
+  <section class="sec">
+    <div class="wrap twocol">
+      <article>
+<div class="blk soft" id="signs">
+<span class="kick">Signs You Need This Service</span>
       <h2>When to Consider a New Shower or Tub</h2>
       <div class="cards">
         
@@ -291,21 +287,17 @@
         </div>
         
       </div>
-    </div>
-  </section>
+</div>
 
-  <section class="sec localbody" id="about">
-    <div class="wrap">
-      <span class="kick">In Carson, CA</span>
+<div class="blk localbody" id="about">
+<span class="kick">In Carson, CA</span>
       <h2>Shower & Tub Installation in Carson Homes</h2>
       <p>New shower and tub installation involves more than setting the fixture in place. Proper waterproofing behind the surround, correctly sloped drain connections, and code-compliant water supply lines all matter more to long-term performance than the visible fixture itself. A beautiful new shower installed with a poor waterproofing membrane will develop hidden water damage within a few years regardless of how it looks.</p><p>Tub-to-shower conversions are a common request in Carson, particularly for homeowners looking to age in place or improve accessibility. This kind of conversion typically involves modifying the drain location and sometimes the surrounding wall structure, which is more involved than a straightforward like-for-like replacement.</p><p>For older Carson homes with original 1950s and 1960s-era bathroom plumbing, a new shower or tub installation is often a good opportunity to also update the supply lines and shutoff valves behind the wall, since accessing that area for the fixture work makes future access much harder once everything's closed back up.</p><p>Glass shower enclosures and surround panels have become a common upgrade during installation, replacing older shower curtain setups or dated fiberglass surrounds. We coordinate the plumbing rough-in to match whatever finish materials you're installing, since the drain and valve placement needs to line up precisely with the enclosure or surround before tile or panel work begins.</p>
       <p>Bathroom remodels in Carson often start with a tub-to-shower conversion in a single-story home, such as those around Carriage Crest Park. Moving the drain, waterproofing the pan, and confirming the supply valves are part of that scope, which is why we assess the plumbing before you pick tile.</p>
-    </div>
-  </section>
+</div>
 
-  <section class="sec soft" id="process">
-    <div class="wrap">
-      <span class="kick">Our Process</span>
+<div class="blk soft" id="process">
+<span class="kick">Our Process</span>
       <h2>Our Installation Process</h2>
       <div class="steps">
         
@@ -334,12 +326,10 @@
         </div>
         
       </div>
-    </div>
-  </section>
+</div>
 
-  <section class="sec" id="why">
-    <div class="wrap">
-      <span class="kick">Why Carson Pro Plumbing</span>
+<div class="blk" id="why">
+<span class="kick">Why Carson Pro Plumbing</span>
       <h2>Why Choose Us for Shower & Tub Installation</h2>
       <div class="why">
         
@@ -368,20 +358,16 @@
         </div>
         
       </div>
-    </div>
-  </section>
+</div>
 
-  <section class="sec soft localbody" id="related">
-    <div class="wrap">
-      <span class="kick">Related Reading</span>
+<div class="blk soft localbody" id="related">
+<span class="kick">Related Reading</span>
       <h2>You Might Also Need</h2>
-      <p>If you're updating fixtures more broadly as part of a remodel, see our <a href="/faucet-sink-repair">faucet and sink</a> and <a href="/toilet-repair-installation">toilet installation</a> pages as well. A whole bathroom remodel in an older home is often a good time to consider <a href="/repiping-whole-home-pipe-replacement">repiping</a> if the supply lines are original to the house. This upgrade is popular among <a href="/lomita">Lomita</a>'s older housing stock as well.</p>
-    </div>
-  </section>
+      <p>If you're updating fixtures more broadly as part of a remodel, see our <a href="/faucet-sink-repair/">faucet and sink</a> and <a href="/toilet-repair-installation/">toilet installation</a> pages as well. A whole bathroom remodel in an older home is often a good time to consider <a href="/repiping-whole-home-pipe-replacement/">repiping</a> if the supply lines are original to the house. This upgrade is popular among <a href="/lomita/">Lomita</a>'s older housing stock as well.</p>
+</div>
 
-  <section class="sec" id="pricing">
-    <div class="wrap">
-      <span class="kick">Pricing Transparency</span>
+<div class="blk" id="pricing">
+<span class="kick">Pricing Transparency</span>
       <h2>What Affects the Price of Shower & Bathtub Installation</h2>
       <p class="sub">We can't give an accurate number without seeing the job, but these are the real factors that move the price up or down.</p>
       <div class="cards">
@@ -405,15 +391,11 @@
       <div class="insurance-note">
         <strong>On insurance:</strong> A shower or tub remodel is a home improvement project, not repair of sudden damage, so it's not something homeowner's insurance is generally involved in.
       </div>
-    </div>
-  </section>
+</div>
 
-  
-
-  <section class="sec" id="faq">
-    <div class="wrap">
-      <span class="kick">Common Questions</span>
-      <h2></h2>
+<div class="blk" id="faq">
+<span class="kick">Common Questions</span>
+      <h2>Shower &amp; Tub Installation Questions</h2>
       <div class="faq">
         
         <div class="faqitem">
@@ -442,8 +424,25 @@
         </div>
         
       </div>
+</div>
+      </article>
+      <aside class="sidecard" aria-label="Call Carson Pro Plumbing">
+        <span class="kick">24/7 Emergency Line Open</span>
+        <h3>Planning a shower or tub?</h3>
+        <p>We handle valves, drains and supply lines for new installs.</p>
+        <a href="tel:+13104247510" class="btn berry block">📞 Call (310) 424-7510</a>
+        <ul class="sidelist">
+          <li>Upfront pricing before work starts</li>
+          <li>Licensed &amp; insured</li>
+          <li>Same-day appointments available</li>
+          <li>Serving Carson and the South Bay</li>
+        </ul>
+        <a class="sidelink" href="/faucet-sink-repair/">Faucet &amp; sink repair →</a>
+      </aside>
     </div>
   </section>
+
+  
 
   <section class="sec soft" id="coverage-map">
     <div class="wrap">
@@ -455,7 +454,7 @@
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           title="Carson Pro Plumbing service area map covering Carson and the South Bay"
-          aria-label="Map of Carson Pro Plumbing's service area covering Carson, Long Beach, Torrance, Compton, Wilmington, and Lomita, CA">
+          aria-label="Map of Carson Pro Plumbing's service area covering Carson, Long Beach, Torrance, Compton, Wilmington, Lomita, Gardena, and Harbor City, CA">
         </iframe>
       </div>
     </div>
@@ -483,28 +482,28 @@
       </div>
       <div>
         <h4>Services</h4>
-        <a href="/water-heater-repair">Water Heater Repair</a>
-        <a href="/drain-cleaning-unclogging">Drain Cleaning</a>
-        <a href="/sewer-line-repair">Sewer Line Repair</a>
-        <a href="/leak-detection">Leak Detection</a>
-        <a href="/services">All Services</a>
+        <a href="/water-heater-repair/">Water Heater Repair</a>
+        <a href="/drain-cleaning-unclogging/">Drain Cleaning</a>
+        <a href="/sewer-line-repair/">Sewer Line Repair</a>
+        <a href="/leak-detection/">Leak Detection</a>
+        <a href="/services/">All Services</a>
       </div>
       <div>
         <h4>Service Areas</h4>
-        <a href="/long-beach">Long Beach</a>
-        <a href="/torrance">Torrance</a>
-        <a href="/compton">Compton</a>
-        <a href="/wilmington">Wilmington</a>
-        <a href="/gardena">Gardena</a>
-        <a href="/harbor-city">Harbor City</a>
-        <a href="/service-areas">All Areas</a>
+        <a href="/long-beach/">Long Beach</a>
+        <a href="/torrance/">Torrance</a>
+        <a href="/compton/">Compton</a>
+        <a href="/wilmington/">Wilmington</a>
+        <a href="/gardena/">Gardena</a>
+        <a href="/harbor-city/">Harbor City</a>
+        <a href="/service-areas/">All Areas</a>
       </div>
       <div>
         <h4>Company</h4>
-        <a href="/blog">Blog</a>
-        <a href="/contact">Contact Us</a>
-        <a href="/privacy">Privacy Policy</a>
-        <a href="/terms">Terms of Service</a>
+        <a href="/blog/">Blog</a>
+        <a href="/contact/">Contact Us</a>
+        <a href="/privacy/">Privacy Policy</a>
+        <a href="/terms/">Terms of Service</a>
       </div>
     </div>
     <div class="fbottom">

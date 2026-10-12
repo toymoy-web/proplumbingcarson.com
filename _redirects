@@ -1,2 +1,26 @@
 # Cloudflare Pages resolves clean URLs and directory index files natively.
 # No rules needed here, keep empty unless a genuine cross-domain or legacy redirect arises.
+
+# Blog slugs renamed to include the city (permanent)
+/blog/bathroom-remodel-shower-checklist/ /blog/bathroom-remodel-shower-checklist-carson/ 301
+/blog/bathroom-remodel-shower-checklist /blog/bathroom-remodel-shower-checklist-carson/ 301
+/blog/burst-pipe-first-10-minutes/ /blog/burst-pipe-first-10-minutes-carson/ 301
+/blog/burst-pipe-first-10-minutes /blog/burst-pipe-first-10-minutes-carson/ 301
+/blog/garbage-disposal-humming-not-spinning/ /blog/garbage-disposal-humming-not-spinning-carson/ 301
+/blog/garbage-disposal-humming-not-spinning /blog/garbage-disposal-humming-not-spinning-carson/ 301
+/blog/gas-smell-water-heater-what-to-do/ /blog/gas-smell-water-heater-what-to-do-carson/ 301
+/blog/gas-smell-water-heater-what-to-do /blog/gas-smell-water-heater-what-to-do-carson/ 301
+/blog/pool-losing-water-leak-or-evaporation/ /blog/pool-losing-water-leak-or-evaporation-carson/ 301
+/blog/pool-losing-water-leak-or-evaporation /blog/pool-losing-water-leak-or-evaporation-carson/ 301
+/blog/running-toilet-costing-you-more/ /blog/running-toilet-costing-you-more-carson/ 301
+/blog/running-toilet-costing-you-more /blog/running-toilet-costing-you-more-carson/ 301
+/blog/sewer-line-inspection-frequency-older-homes/ /blog/sewer-line-inspection-older-homes-carson/ 301
+/blog/sewer-line-inspection-frequency-older-homes /blog/sewer-line-inspection-older-homes-carson/ 301
+/blog/slab-leak-signs-why-waiting-makes-it-worse/ /blog/slab-leak-signs-carson-homes/ 301
+/blog/slab-leak-signs-why-waiting-makes-it-worse /blog/slab-leak-signs-carson-homes/ 301
+/blog/sump-pump-rainy-season-checklist/ /blog/sump-pump-rainy-season-checklist-carson/ 301
+/blog/sump-pump-rainy-season-checklist /blog/sump-pump-rainy-season-checklist-carson/ 301
+/blog/water-damage-insurance-what-covered/ /blog/water-damage-insurance-what-covered-carson/ 301
+/blog/water-damage-insurance-what-covered /blog/water-damage-insurance-what-covered-carson/ 301
+/blog/water-pressure-drops-when-toilet-flushes/ /blog/water-pressure-drops-toilet-flush-carson/ 301
+/blog/water-pressure-drops-when-toilet-flushes /blog/water-pressure-drops-toilet-flush-carson/ 301

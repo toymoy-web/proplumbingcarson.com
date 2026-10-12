@@ -5,7 +5,7 @@
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{font-family:'Nunito Sans',Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65;font-size:16px;overflow-x:hidden}
+body{font-family:'Nunito Sans',Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65;font-size:16px}
 h1,h2,h3,h4{font-family:'Baloo 2','Nunito Sans',sans-serif;letter-spacing:-.01em;line-height:1.15}
 a{color:inherit}
 img{max-width:100%;height:auto;display:block}
@@ -246,3 +246,67 @@ footer .fbottom{border-top:1px solid var(--line);margin-top:34px;padding-top:18p
   .sec{padding:50px 0}
   .emergency .wrap{flex-direction:column;text-align:center}
 }
+
+
+/* ===== v11: spacing and rhythm ===== */
+main p + p{margin-top:14px}
+main h2,main h3{margin-bottom:14px}
+.localbody p,.faqa p,.blk p{font-size:16px;line-height:1.7}
+.sec .sub{font-size:16px}
+
+/* ===== v11: hero backgrounds ===== */
+.has-hero{position:relative;isolation:isolate;overflow:hidden;color:#fff}
+.has-hero .hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.has-hero:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(100deg,rgba(36,21,34,.92) 0%,rgba(36,21,34,.84) 55%,rgba(36,21,34,.66) 100%)}
+.pagehead.has-hero{padding:60px 0}
+.has-hero .circ{display:none}
+.has-hero h1,.has-hero h1 span,.has-hero p,.has-hero p.lead{color:#fff}
+.has-hero .crumb{color:#EAD9E4}
+.has-hero .crumb a{color:var(--volt)}
+.has-hero .byline{color:#EAD9E4}
+.has-hero .chip{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.45);color:#fff}
+.has-hero .badge{background:var(--volt);border-color:var(--volt);color:var(--ink)}
+.has-hero .badge:before{color:var(--berry)}
+.has-hero .trustrow{color:#fff}
+.has-hero .trustrow li:before{color:var(--volt)}
+.has-hero .btn.ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.7)}
+.has-hero .herocall,.has-hero .herocall p{color:var(--gray)}
+.hero.has-hero{padding:70px 0 80px}
+
+/* ===== v11: two column layout and sticky sidecard ===== */
+.twocol{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:44px;align-items:start}
+.twocol article{min-width:0}
+.twocol article>.blk+.blk{margin-top:44px}
+.blk.soft{background:var(--soft);border-radius:22px;padding:30px}
+.blk.emg{border-left:4px solid var(--berry);padding-left:24px}
+.blk.localnote{background:var(--soft);border-left:4px solid var(--berry);border-radius:0 18px 18px 0;padding:26px 28px}
+.blk h3{font-size:19px;margin:20px 0 10px;color:var(--ink)}
+.twocol article .cards{grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+.twocol article .why{grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+.twocol article .steps{grid-template-columns:repeat(2,1fr);row-gap:26px}
+.twocol article .steps:before{display:none}
+.twocol article .areas{grid-template-columns:repeat(2,1fr)}
+.twocol article .table-scroll table{min-width:420px}
+.sidecard{position:sticky;top:calc(var(--nav-h) + 20px);align-self:start;background:#fff;border:1px solid var(--line);border-radius:22px;padding:26px;box-shadow:0 20px 44px rgba(36,21,34,.10)}
+.sidecard h3{font-size:22px;margin:8px 0 8px}
+.sidecard p{font-size:15px;color:var(--gray);margin-bottom:16px}
+.sidelist{list-style:none;margin:18px 0 14px;border-top:1px solid var(--line);padding-top:14px}
+.sidelist li{font-size:14.5px;padding:5px 0;color:var(--gray)}
+.sidelist li:before{content:"✓ ";color:var(--berry);font-weight:800}
+.sidelink{display:block;color:var(--berry);font-weight:700;font-size:15px;text-decoration:none}
+.sidelink:hover{text-decoration:underline}
+@media (max-width:900px){
+  .twocol{grid-template-columns:1fr;gap:34px}
+  .sidecard{position:static}
+}
+@media (max-width:768px){
+  .twocol article .steps,.twocol article .areas{grid-template-columns:1fr}
+  .blk.soft{padding:22px}
+  .blk.localnote{padding:22px}
+  .pagehead.has-hero{padding:44px 0}
+}
+
+/* ===== v11: blog index thumbnails ===== */
+.card:has(.card-thumb){overflow:hidden}
+.card-thumb{display:block;margin:-26px -26px 18px;overflow:hidden}
+.card-thumb img{width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;display:block}
