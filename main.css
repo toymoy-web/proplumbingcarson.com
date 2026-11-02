@@ -310,3 +310,5 @@ main h2,main h3{margin-bottom:14px}
 .card:has(.card-thumb){overflow:hidden}
 .card-thumb{display:block;margin:-26px -26px 18px;overflow:hidden}
 .card-thumb img{width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;display:block}
+.fsocial{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:14px}
+.fsocial a{display:inline-block;margin-bottom:0;font-weight:600;color:var(--berry)}
